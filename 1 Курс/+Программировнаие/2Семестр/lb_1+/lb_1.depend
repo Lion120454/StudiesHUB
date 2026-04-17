@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1648050674 source:e:\Документы+\Программировнаие\lb_1\main.c
-	<time.h>
-	<stdio.h>
-	<stdlib.h>
-	<locale.h>
-	<stdbool.h>
-

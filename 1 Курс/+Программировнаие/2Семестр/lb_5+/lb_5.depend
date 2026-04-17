@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1653832422 source:h:\Прога\lb_5+\main.c
-	<stdio.h>
-	<stdlib.h>
-	<locale.h>
-	<string.h>
-
