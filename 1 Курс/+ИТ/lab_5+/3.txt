@@ -1,0 +1,15 @@
+A = rand(0,100);
+srsum=0
+k=1;
+for i=0:1:99
+    srsum=srsum + A(i)
+    k=k+1
+    end
+end
+srsum=srsum./k
+disp (srsum)
+
+
+
+            
+        

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1652282448 source:e:\Прога\iz33_8\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<string.h>
+
+1652282448 source:e:\Прога\iz33_8+\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<string.h>
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1641823811 source:e:\Документы+\Программировнаие\iz_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<locale.h>
+
+1641823891 source:e:\Документы+\1 Курс\+Программировнаие\1Семестр\iz_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<locale.h>
+

@@ -1,0 +1,32 @@
+import numpy as np
+import pandas as pd
+import plotly.express as px
+import os
+for dirname, _, filenames in os.walk('/kaggle/input'):
+    for filename in filenames:
+        print(os.path.join(dirname, filename))
+
+GlobalLandTemperaturesByCity = pd.read_csv("../input/climate-change-earth-surface-temperature-data/GlobalLandTemperaturesByCity.csv") 
+GlobalLandTemperaturesByCountry = pd.read_csv("../input/climate-change-earth-surface-temperature-data/GlobalLandTemperaturesByCountry.csv") 
+GlobalLandTemperaturesByMajorCity = pd.read_csv("../input/climate-change-earth-surface-temperature-data/GlobalLandTemperaturesByMajorCity.csv") 
+GlobalLandTemperaturesByState = pd.read_csv("../input/climate-change-earth-surface-temperature-data/GlobalLandTemperaturesByState.csv") 
+GlobalTemperatures = pd.read_csv("../input/climate-change-earth-surface-temperature-data/GlobalTemperatures.csv") 
+
+df = GlobalLandTemperaturesByCountry 
+# преобразуем строку в тип данных дата-время
+df['dt'] = df['dt'].astype('datetime64[ns]') 
+# группируем по стране и по году в дате
+df_by_dt = df.groupby([df['Country'],df['dt'].dt.year]).mean()
+# убираем индексы, Country и dt становятся column
+df_by_dt = df_by_dt.reset_index()
+
+df = df_by_dt 
+# запишем более коротко условие по выбору стран
+df_by_country = df[df['Country'].isin(['France', 'United States', 'Germany'])]
+print(df_by_country.columns.tolist())
+print(df_by_country) 
+pd.unique(df_by_country['Country']).tolist() 
+
+import seaborn as sns
+print(list(df)) 
+sns.barplot(x = 'Country', y = 'AverageTemperature', data = GlobalLandTemperaturesByCountry,order = ['France', 'United States', 'Germany'])

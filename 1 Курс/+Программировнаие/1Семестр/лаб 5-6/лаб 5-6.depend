@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1640609237 source:e:\Документы+\Программировнаие\лаб 5-6\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

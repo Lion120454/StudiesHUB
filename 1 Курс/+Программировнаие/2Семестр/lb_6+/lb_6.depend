@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1653665161 source:e:\Документы+\Программировнаие\lb_6\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<io.h>
+	<dos.h>
+
+1654491838 source:d:\Прога\lb_6\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<io.h>
+	<dos.h>
+
+1654695994 source:h:\Прога\lb_6\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<io.h>
+	<dos.h>
+
+1654696050 source:e:\Документы+\1 Курс\+Программировнаие\2Семестр\lb_6+\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<io.h>
+	<dos.h>
+

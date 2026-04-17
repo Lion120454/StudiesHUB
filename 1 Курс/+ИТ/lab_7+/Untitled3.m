@@ -1,0 +1,35 @@
+figure;
+A = imread('H:/ИТ/lab_7/AJ.png');
+imshow(A);
+
+
+R = A(:,:,1); G = A(:,:,2); B = A(:,:,3);
+subplot (2,2,1);
+title ('RGB') ;
+subplot (2,2,2);
+imshow (R) ;
+title ('Red');
+subplot (2,2,3) ;
+imshow (G) ;
+
+subplot (2,2,4) ;
+imshow (B) ;
+title ('Blue');
+Y = 0.299*double(R) + 0.587*double(G) + 0.114*double(B);
+U = -0.14713*double(R) - 0.28886*double(G) + 0.436*double(B) + 128;
+V = 0.615*double(R) - 0.51499*double(G) - 0.10001*double(B) + 128;
+S = size(Y); N = S(1); M = S(2);
+
+DY=int16(DY) ;
+
+DU=int16(DU) ;
+DV=int16 (DV) ;
+
+R = Y + 1.13983* (V - 128);
+G = Y - 0.39465* (U - 128) - 0.58060* (V - 128);
+B = Y + 2.03211* (U - 128);
+figure;
+NA(:,:,1)=R; NA(:,:,2)=G; NA(:,:,3)=B;
+NA=uint8 (NA) ;
+imshow (NA) ;
+title ('New AJ');
