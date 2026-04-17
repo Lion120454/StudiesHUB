@@ -1,0 +1,11 @@
+Признак,Важность
+temperature,0.22284934
+humidity,0.12119808
+temp_below_zero,0.12087977
+pressure,0.09260844
+cloud_ceiling,0.090332024
+wind_speed,0.082047865
+hour,0.07651943
+month,0.075997084
+is_night,0.0734643
+is_winter,0.07244961
