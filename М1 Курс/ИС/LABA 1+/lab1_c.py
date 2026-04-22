@@ -200,7 +200,8 @@ class DollarPredictor:
         # Второй LSTM слой
         x = Bidirectional(LSTM(64, return_sequences=True))(x)
         x = Dropout(0.3)(x)
-        
+         
+
         # Третий LSTM слой
         x = LSTM(32)(x)
         x = Dropout(0.3)(x)
@@ -540,3 +541,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
