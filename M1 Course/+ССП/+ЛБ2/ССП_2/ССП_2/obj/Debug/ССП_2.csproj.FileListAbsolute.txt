@@ -1,0 +1,7 @@
+C:\Users\Lion120454#2\source\repos\ССП_2\ССП_2\bin\Debug\ССП_2.exe.config
+C:\Users\Lion120454#2\source\repos\ССП_2\ССП_2\bin\Debug\ССП_2.exe
+C:\Users\Lion120454#2\source\repos\ССП_2\ССП_2\bin\Debug\ССП_2.pdb
+C:\Users\Lion120454#2\source\repos\ССП_2\ССП_2\obj\Debug\ССП_2.csproj.AssemblyReference.cache
+C:\Users\Lion120454#2\source\repos\ССП_2\ССП_2\obj\Debug\ССП_2.csproj.CoreCompileInputs.cache
+C:\Users\Lion120454#2\source\repos\ССП_2\ССП_2\obj\Debug\ССП_2.exe
+C:\Users\Lion120454#2\source\repos\ССП_2\ССП_2\obj\Debug\ССП_2.pdb
