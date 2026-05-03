@@ -1,4 +1,4 @@
-#Использовать предобученную сеть библиотеки keras для задачи классификации изображений. Задание б.
+ #Использовать предобученную сеть библиотеки keras для задачи классификации изображений. Задание б.
 
 import numpy as np
 from tensorflow.keras.applications import MobileNetV2
@@ -45,6 +45,6 @@ def classify_image(img_path):
     return decoded_predictions
 
 # Использование
-result = classify_image('lab1_b.jpg')
+result = classify_image('C:/Users/dimaa/source/StudiesHUB/M1 Course/IS/LABA 1+/lab1_b.jpg')
 for i, pred in enumerate(result):
     print(f"{i+1}. {pred[1]}: {pred[2]:.2%}")
