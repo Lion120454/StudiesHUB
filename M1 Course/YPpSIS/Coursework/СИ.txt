@@ -1,0 +1,16 @@
+1) https://asana.com/ru/resources/it-project-management   Что такое управление ИТ-проектами? [2025]
+2) https://practicum.yandex.ru/blog/chto-takoe-dekompoziciya-celej-i-kak-ona-pomogaet-dostigat-rezultatov/     Декомпозиция целей: что это и зачем нужна, как работает декомпозиция в проектах и задачах, примеры разделения
+3) https://yandex.cloud/ru/docs/glossary/nlp?utm_referrer=https%3A%2F%2Fyandex.ru%2F&utm_referrer=https%3A%2F%2Fyandex.cloud%2Fshowcaptchafast%3Fd%3DE5EFED7A18EF190F471BDDC476E9EA8DD261E148D2B14CD2119FC79E9DC72139F2FBB52B7D29D9F04B1B99A908859AA90A43202773%26retpath%3DaHR0cHM6Ly95YW5kZXguY2xvdWQvcnUvZG9jcy9nbG9zc2FyeS9ubHA_JnV0bV9yZWZlcnJlcj1odHRwcyUzQS8veWFuZGV4LnJ1Lw%252C%252C_47b30a78e222b5dde8918b0c12a2abdf%26s%3D1f57214f1cd5ae0bd0f3a5101a3227d6&utm_referrer=https%3A//yndx.auth.yandex.cloud/    Обработка естественного языка (NLP) | Yandex Cloud - Документация
+4) https://tass.ru/obschestvo/24010655     Машинное обучение: что это такое и как "умные" алгоритмы меняют нашу жизнь
+5) https://habr.com/ru/companies/x-com/articles/852456/    Какие бывают нейросети и чем YandexGPT, Google Gemini, ChatGPT и GigaChat от Сбера отличаются друг от друга / Хабр
+6) https://ya.zerocoder.ru/tgp-kak-obuchajutsya-generativnye-modeli-izobrazhenij-podrobnyj-obzor/     Как обучаются генеративные модели изображений — простое объяснение
+7) https://habr.com/ru/companies/sportmaster_lab/articles/673660/     Jira Structure: как мы в SM Lab используем плагины для управления продуктом / Хабр
+8) https://www.getguru.com/reference/clickup-ai-agent     Clickup AI Agent – How AI Agents Work with Clickup & Best Use Cases | Guru
+9) https://www.aitoolnet.com/ru/motion       Motion - Интеллектуальный календарь и менеджер задач для команд - Aitoolnet
+10) https://translated.turbopages.org/proxy_u/en-ru.ru.c1a3ea4a-69f8b9fa-96965af8-74722d776562/https/www.g2.com/products/scopemaster/reviews     ScopeMaster Reviews 2026: Details, Pricing, & Features | G2
+11) https://dev.to/sarahcssiqueira/using-github-copilot-to-manage-issues-and-save-time-3549     Using GitHub Copilot to Manage Issues (and Save Time) - DEV Community
+12) https://hi-tech.mail.ru/review/129618-python/     Python: основы языка программирования, особенности, применение, примеры кода
+13) https://docs.python.org/3/library/tkinter.html       tkinter — Python interface to Tcl/Tk — Python 3.14.4 documentation
+14) https://ru.wikipedia.org/wiki/NumPy       NumPy — Википедия
+15) https://forum.exlends.com/topic/760/python-kak-ispravit-oshibku-no-module-named-openpyxl-za-5-minut     Python: как исправить ошибку 'No module named openpyxl' за 5 минут | Exlends.com
+16) 

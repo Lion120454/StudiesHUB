@@ -2,7 +2,6 @@ import tkinter as tk
 from tkinter import ttk, scrolledtext, messagebox, filedialog
 import threading
 import numpy as np
-import pickle
 import os
 import re
 from datetime import datetime
