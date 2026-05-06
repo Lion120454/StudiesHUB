@@ -1,0 +1,93 @@
+@startuml
+' ============================================================
+' SADT DIAGRAM TO-BE (КАК ДОЛЖНО БЫТЬ) - ИИ-ассистент
+' ============================================================
+
+title SADT-диаграмма "КАК ДОЛЖНО БЫТЬ" - Автоматическая декомпозиция с ИИ
+
+rectangle "Процесс: АВТОМАТИЧЕСКАЯ ДЕКОМПОЗИЦИЯ (ИИ-Ассистент)" as Process #LightBlue
+
+' Входы (Inputs)
+rectangle "Текстовое описание\nзадачи (русский язык)" as Input1 #LightGreen
+rectangle "Выбор ЖЦ\n(6 опций)" as Input2 #LightGreen
+rectangle "Исторические данные\nиз Excel/models" as Input3 #LightGreen
+rectangle "Обученная нейросеть\n(.npz)" as Input4 #LightGreen
+rectangle "Словарь\n(vocab.json)" as Input5 #LightGreen
+
+' Управление (Controls)
+rectangle "Выбранный ЖЦ\n(Waterfall/Agile/DevOps...)" as Control1 #LightYellow
+rectangle "Ролевая модель\n(12+ ролей)" as Control2 #LightYellow
+
+' Механизмы (Mechanisms)
+rectangle "Нейросеть на NumPy\n(SimpleNeuralNetwork)" as Mech1 #LightCyan
+rectangle "Токенизатор и\nвекторизатор текста" as Mech2 #LightCyan
+rectangle "Генератор подзадач\n(контекстно-зависимый)" as Mech3 #LightCyan
+rectangle "Модуль экспорта\n(Excel/MD/TXT/JSON)" as Mech4 #LightCyan
+
+' Ресурсы (Resources)
+rectangle "1 ПК с Python 3.9+" as Res1 #LightPink
+rectangle "DeepSeek AI\nAssistant" as Res2 #LightPink
+
+' Выходы (Outputs)
+rectangle "WBS (Excel -\n4 листа)" as Out1 #LightGray
+rectangle "Распределение ролей\n(таблица)" as Out2 #LightGray
+rectangle "Таймлайн проекта" as Out3 #LightGray
+rectangle "Markdown/TXT/JSON\nотчет" as Out4 #LightGray
+rectangle "Визуализация\nв GUI" as Out5 #LightGray
+
+' Фазы процесса
+rectangle "Фаза 1: Токенизация\nи векторизация" as Phase1
+rectangle "Фаза 2: Классификация\n(Нейросеть)" as Phase2
+rectangle "Фаза 3: Генерация\nперсонализированных подзадач" as Phase3
+rectangle "Фаза 4: Распределение\nролей" as Phase4
+rectangle "Фаза 5: Формирование\nтаймлайна и экспорт" as Phase5
+
+' Результаты классификации
+rectangle "Тип задачи:\nВеб/Mobile/AI/DevOps..." as Result1
+rectangle "Сложность:\nНиз/Сред/Высокая" as Result2
+rectangle "Жизненный цикл:\nWaterfall/Agile/DevOps" as Result3
+
+' Связи входов
+Input1 --> Process
+Input2 --> Process
+Input3 --> Process
+Input4 --> Process
+Input5 --> Process
+
+' Связи управления
+Control1 --> Process
+Control2 --> Process
+
+' Связи механизмов
+Mech1 --> Process
+Mech2 --> Process
+Mech3 --> Process
+Mech4 --> Process
+
+' Связи ресурсов
+Res1 --> Process
+Res2 --> Process
+
+' Связи выходов
+Process --> Out1
+Process --> Out2
+Process --> Out3
+Process --> Out4
+Process --> Out5
+
+' Последовательность фаз
+Phase1 --> Phase2
+Phase2 --> Phase3
+Phase3 --> Phase4
+Phase4 --> Phase5
+
+' Результаты классификации
+Phase2 --> Result1
+Phase2 --> Result2
+Phase2 --> Result3
+
+Result1 --> Phase3
+Result2 --> Phase3
+Result3 --> Phase3
+
+@enduml
