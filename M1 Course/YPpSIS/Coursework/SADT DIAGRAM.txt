@@ -1,0 +1,33 @@
+@startuml
+' SADT Context Diagram (As-Is vs To-Be)
+title SADT-диаграмма: Декомпозиция задач (As-Is / To-Be)
+
+left to right direction
+
+rectangle "AS-IS: Ручная декомпозиция" as asis {
+  rectangle "Пользователь" as User
+  rectangle "Задача (TL;DR)" as TaskIn
+  rectangle "Аналитик/PM" as Human
+  rectangle "Декомпозиция\n(подзадачи, оценки)" as ManualOutput
+
+  TaskIn --> Human : Вход (Задача)
+  Human --> ManualOutput : Выход (Список подзадач)
+  
+  note right of Human : Механизм: Экспертиза\nОграничения: Время, Усталость
+}
+
+rectangle "TO-BE: ИИ-ассистент" as tobe {
+  rectangle "Пользователь" as User2
+  rectangle "Задача" as TaskIn2
+  rectangle "AI Assistant" as AI
+  rectangle "Авто-декомпозиция\n(JSON, граф, чеклист)" as AIOutput
+
+  TaskIn2 --> AI : Вход
+  AI --> AIOutput : Выход (JSON/Граф)
+  
+  note right of AI : Механизм: LLM, RAG, Промпт-инженерия\nУправление: Контекст, Токены
+}
+
+User2 --> AI : Запрос
+
+@enduml

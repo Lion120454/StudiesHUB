@@ -1,0 +1,35 @@
+@startuml
+title Диаграмма прецедентов: ИИ-ассистент для декомпозиции задач
+left to right direction
+
+actor "Менеджер проекта" as Manager
+actor "Исполнитель" as Developer
+actor "Трекер задач" as Tracker
+
+rectangle "ИИ-Ассистент (Независимая программа)" {
+    usecase "Загрузить описание задачи" as UC1
+    usecase "Запустить декомпозицию" as UC2
+    usecase "Настроить параметры" as UC3
+    usecase "Редактировать результат" as UC4
+    usecase "Экспортировать задачи" as UC5
+    usecase "Проверить зависимости" as UC6
+    usecase "Оценить трудоемкость" as UC7
+}
+
+' Связи прецедентов
+UC2 ..> UC6 : include
+UC2 ..> UC7 : include
+UC5 ..> UC4 : extend
+
+' Связи акторов
+Manager --> UC1
+Manager --> UC2
+Manager --> UC3
+Manager --> UC4
+Manager --> UC5
+
+Developer --> UC5
+
+' Связь с внешней системой
+UC5 --> Tracker
+@enduml
