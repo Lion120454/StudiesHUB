@@ -914,7 +914,7 @@ class ExcelExporter:
 class DeepSeekAIAssistant:
     def __init__(self, root):
         self.root = root
-        self.root.title("DeepSeek AI Assistant - Task Decomposer v3.0 (Excel Export)")
+        self.root.title("AI Assistant - Task Decomposer")
         self.root.geometry("1300x850")
         self.root.configure(bg='#0a0a0a')
         
@@ -943,7 +943,7 @@ class DeepSeekAIAssistant:
         
         title_label = tk.Label(
             header_frame,
-            text="🧠 DeepSeek AI Assistant - Intelligent Task Decomposer",
+            text="🧠 AI Assistant - Intelligent Task Decomposer",
             font=('Segoe UI', 20, 'bold'),
             bg='#0a0a0a',
             fg='#0066cc'
@@ -1237,7 +1237,7 @@ class DeepSeekAIAssistant:
             return
         
         self.decompose_btn.config(state='disabled', text='🔄 Анализирую...')
-        self.status_bar.config(text="🧠 DeepSeek AI анализирует задачу с учетом выбранного жизненного цикла...")
+        self.status_bar.config(text="🧠 AI анализирует задачу с учетом выбранного жизненного цикла...")
         
         thread = threading.Thread(target=self.process_task, args=(task,))
         thread.daemon = True
