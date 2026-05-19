@@ -1,2 +1,369 @@
-Дискретный софт авто критик
 DSAC
+Консоль:
+Ep   10 | Reward:  -431.1 | Avg100:  -244.5 | Best:  -114.2 | Steps: 103 | Loss: 0.4114
+Ep   20 | Reward:  -235.6 | Avg100:  -180.4 | Best:    20.7 | Steps:  89 | Loss: 0.4009
+Ep   30 | Reward:  -113.6 | Avg100:  -169.0 | Best:    20.7 | Steps:  67 | Loss: 0.3298
+Ep   40 | Reward:  -323.0 | Avg100:  -168.1 | Best:    20.7 | Steps: 103 | Loss: 0.1582
+Ep   50 | Reward:  -404.5 | Avg100:  -171.5 | Best:    20.7 | Steps: 107 | Loss: -0.0466
+Ep   60 | Reward:  -237.3 | Avg100:  -167.4 | Best:    20.7 | Steps: 102 | Loss: 0.1739
+Ep   70 | Reward:   -68.1 | Avg100:  -173.7 | Best:    20.7 | Steps: 119 | Loss: 0.8327
+Ep   80 | Reward:  -279.6 | Avg100:  -182.2 | Best:    20.7 | Steps:  80 | Loss: 0.0426
+Ep   90 | Reward:  -108.3 | Avg100:  -178.0 | Best:    20.7 | Steps:  70 | Loss: 0.4287
+Ep  100 | Reward:  -103.0 | Avg100:  -175.6 | Best:    20.7 | Steps:  83 | Loss: 0.2852
+Ep  110 | Reward:  -222.7 | Avg100:  -167.5 | Best:    20.7 | Steps: 138 | Loss: 0.3361
+Ep  120 | Reward:  -311.5 | Avg100:  -169.1 | Best:    20.7 | Steps: 123 | Loss: 0.2437
+Ep  130 | Reward:  -261.3 | Avg100:  -180.8 | Best:    20.7 | Steps:  96 | Loss: 0.5517
+Ep  140 | Reward:   -55.4 | Avg100:  -182.9 | Best:    20.7 | Steps:  74 | Loss: 0.5239
+Ep  150 | Reward:   -32.8 | Avg100:  -179.3 | Best:    20.7 | Steps: 152 | Loss: -0.0417
+Ep  160 | Reward:  -193.8 | Avg100:  -180.3 | Best:    20.7 | Steps: 131 | Loss: 0.5250
+Ep  170 | Reward:   -53.0 | Avg100:  -175.5 | Best:    20.7 | Steps:  96 | Loss: 0.3106
+Ep  180 | Reward:   -72.4 | Avg100:  -160.9 | Best:    20.7 | Steps: 102 | Loss: 0.3583
+Ep  190 | Reward:  -199.3 | Avg100:  -161.1 | Best:    20.7 | Steps: 107 | Loss: -0.2793
+Ep  200 | Reward:  -240.4 | Avg100:  -168.2 | Best:    20.7 | Steps: 102 | Loss: 0.2708
+Ep  210 | Reward:  -356.7 | Avg100:  -176.8 | Best:    20.7 | Steps: 720 | Loss: 2.0528
+Ep  220 | Reward:  -219.9 | Avg100:  -178.0 | Best:    29.2 | Steps: 146 | Loss: 0.4671
+Ep  230 | Reward:  -229.8 | Avg100:  -169.5 | Best:    29.2 | Steps: 124 | Loss: -0.1139
+Ep  240 | Reward:   -30.7 | Avg100:  -163.3 | Best:    29.2 | Steps: 131 | Loss: 0.0975
+Ep  250 | Reward:   -42.8 | Avg100:  -159.9 | Best:    29.2 | Steps: 124 | Loss: 0.3975
+Ep  260 | Reward:  -246.1 | Avg100:  -160.8 | Best:    29.2 | Steps: 138 | Loss: 0.1129
+Ep  270 | Reward:   -87.4 | Avg100:  -162.1 | Best:    29.2 | Steps: 134 | Loss: 0.4241
+Ep  280 | Reward:  -234.9 | Avg100:  -161.3 | Best:    29.2 | Steps: 273 | Loss: 1.1288
+Ep  290 | Reward:  -290.3 | Avg100:  -161.4 | Best:    29.2 | Steps: 166 | Loss: 0.3601
+Ep  300 | Reward:    29.9 | Avg100:  -154.1 | Best:    29.9 | Steps: 157 | Loss: 0.1013
+Ep  310 | Reward:  -282.1 | Avg100:  -146.0 | Best:    29.9 | Steps: 189 | Loss: 0.3621
+Ep  320 | Reward:   -82.1 | Avg100:  -148.0 | Best:    29.9 | Steps: 122 | Loss: -0.0928
+Ep  330 | Reward:    12.7 | Avg100:  -146.1 | Best:    29.9 | Steps: 120 | Loss: 0.0771
+Ep  340 | Reward:  -296.3 | Avg100:  -142.3 | Best:    29.9 | Steps: 158 | Loss: 0.2784
+Ep  350 | Reward:   -68.4 | Avg100:  -141.7 | Best:    29.9 | Steps: 187 | Loss: -0.1303
+Ep  360 | Reward:  -313.6 | Avg100:  -139.7 | Best:    29.9 | Steps: 519 | Loss: 1.6619
+Ep  370 | Reward:  -269.4 | Avg100:  -132.7 | Best:    29.9 | Steps: 390 | Loss: -0.1033
+Ep  380 | Reward:   -43.1 | Avg100:  -139.7 | Best:    29.9 | Steps: 141 | Loss: 0.0331
+Ep  390 | Reward:  -159.2 | Avg100:  -144.7 | Best:    29.9 | Steps: 238 | Loss: 0.5448
+Ep  400 | Reward:  -356.6 | Avg100:  -148.7 | Best:    29.9 | Steps: 156 | Loss: 0.0993
+Ep  410 | Reward:  -137.0 | Avg100:  -149.9 | Best:    29.9 | Steps: 256 | Loss: -0.3154
+Ep  420 | Reward:  -203.6 | Avg100:  -143.2 | Best:    36.2 | Steps: 173 | Loss: 0.4321
+Ep  430 | Reward:   -58.4 | Avg100:  -143.9 | Best:    36.2 | Steps: 185 | Loss: -0.1093
+Ep  440 | Reward:   -43.9 | Avg100:  -150.7 | Best:    36.2 | Steps: 186 | Loss: -0.1180
+Ep  450 | Reward:   -11.7 | Avg100:  -149.0 | Best:    36.2 | Steps: 111 | Loss: 0.0281
+Ep  460 | Reward:  -396.4 | Avg100:  -152.1 | Best:    36.2 | Steps: 151 | Loss: -0.0341
+Ep  470 | Reward:  -219.8 | Avg100:  -149.8 | Best:    36.2 | Steps: 266 | Loss: 0.8311
+Ep  480 | Reward:   -21.2 | Avg100:  -141.1 | Best:    36.2 | Steps: 173 | Loss: -0.0714
+Ep  490 | Reward:  -275.4 | Avg100:  -139.5 | Best:    36.2 | Steps: 456 | Loss: 0.1111
+Ep  500 | Reward:  -359.8 | Avg100:  -142.0 | Best:    36.2 | Steps: 539 | Loss: 0.3984
+Ep  510 | Reward:  -267.9 | Avg100:  -142.8 | Best:    36.2 | Steps: 531 | Loss: 0.9565
+Ep  520 | Reward:  -192.4 | Avg100:  -156.0 | Best:    36.2 | Steps: 643 | Loss: 0.6646
+Ep  530 | Reward:  -169.0 | Avg100:  -159.1 | Best:    36.2 | Steps: 140 | Loss: -0.1167
+Ep  540 | Reward:   -51.2 | Avg100:  -159.3 | Best:    36.2 | Steps: 162 | Loss: -0.2084
+Ep  550 | Reward:   -32.3 | Avg100:  -162.0 | Best:    36.2 | Steps: 155 | Loss: -0.1577
+Ep  560 | Reward:  -188.9 | Avg100:  -157.7 | Best:    36.2 | Steps: 214 | Loss: 0.3798
+Ep  570 | Reward:    -5.4 | Avg100:  -161.5 | Best:    36.2 | Steps: 148 | Loss: -0.2350
+Ep  580 | Reward:   -49.0 | Avg100:  -163.1 | Best:    36.2 | Steps: 100 | Loss: -0.4500
+Ep  590 | Reward:   -53.9 | Avg100:  -149.0 | Best:    36.2 | Steps: 1000 | Loss: 0.4890
+Ep  600 | Reward:  -371.2 | Avg100:  -137.4 | Best:    36.2 | Steps: 600 | Loss: 0.2797
+Ep  610 | Reward:    16.8 | Avg100:  -126.5 | Best:    36.2 | Steps: 116 | Loss: -0.2262
+Ep  620 | Reward:   -53.2 | Avg100:  -122.0 | Best:    36.2 | Steps: 1000 | Loss: 0.4915
+Ep  630 | Reward:  -100.6 | Avg100:  -107.6 | Best:    53.6 | Steps: 267 | Loss: 0.0004
+Ep  640 | Reward:    -4.1 | Avg100:   -96.5 | Best:    57.6 | Steps: 1000 | Loss: 0.3841
+Ep  650 | Reward:    77.1 | Avg100:   -85.6 | Best:    77.1 | Steps: 187 | Loss: -0.4843
+Ep  660 | Reward:    36.6 | Avg100:   -74.8 | Best:    77.1 | Steps:  92 | Loss: -0.3600
+Ep  670 | Reward:     8.5 | Avg100:   -65.9 | Best:    77.1 | Steps: 103 | Loss: 0.3037
+Ep  680 | Reward:  -223.1 | Avg100:   -63.4 | Best:    77.1 | Steps: 489 | Loss: 1.0338
+Ep  690 | Reward:    27.7 | Avg100:   -60.4 | Best:    77.1 | Steps: 1000 | Loss: 0.5314
+Ep  700 | Reward:    25.8 | Avg100:   -56.5 | Best:    77.1 | Steps: 1000 | Loss: 0.5178
+Ep  710 | Reward:   -82.2 | Avg100:   -55.6 | Best:    77.1 | Steps: 1000 | Loss: 0.2654
+Ep  720 | Reward:   -13.4 | Avg100:   -42.2 | Best:    77.1 | Steps: 1000 | Loss: 0.3184
+Ep  730 | Reward:    34.0 | Avg100:   -39.5 | Best:    77.1 | Steps: 1000 | Loss: 0.2739
+Ep  740 | Reward:    66.1 | Avg100:   -36.6 | Best:    77.1 | Steps: 1000 | Loss: 0.2965
+Ep  750 | Reward:    15.1 | Avg100:   -38.2 | Best:    77.1 | Steps: 137 | Loss: -0.4500
+Ep  760 | Reward:   -15.4 | Avg100:   -37.2 | Best:    77.1 | Steps: 192 | Loss: -0.1893
+Ep  770 | Reward:    44.0 | Avg100:   -37.1 | Best:    77.1 | Steps: 1000 | Loss: 0.6401
+Ep  780 | Reward:    52.2 | Avg100:   -30.0 | Best:    80.0 | Steps: 1000 | Loss: 0.4453
+Ep  790 | Reward:   -37.5 | Avg100:   -32.5 | Best:    80.0 | Steps: 333 | Loss: 0.0822
+Ep  800 | Reward:    -3.7 | Avg100:   -31.2 | Best:    82.1 | Steps: 180 | Loss: -0.4901
+Ep  810 | Reward:    -2.4 | Avg100:   -27.6 | Best:    82.1 | Steps: 1000 | Loss: 0.2975
+Ep  820 | Reward:   -46.4 | Avg100:   -23.8 | Best:    82.1 | Steps: 169 | Loss: -0.4512
+Ep  830 | Reward:    -1.4 | Avg100:   -20.1 | Best:    82.1 | Steps:  94 | Loss: -0.1336
+Ep  840 | Reward:    27.2 | Avg100:   -18.7 | Best:   101.5 | Steps: 184 | Loss: -0.1336
+Ep  850 | Reward:    58.2 | Avg100:   -14.9 | Best:   101.5 | Steps: 1000 | Loss: 0.9310
+Ep  860 | Reward:   -10.1 | Avg100:   -10.7 | Best:   101.5 | Steps: 159 | Loss: -0.2688
+Ep  870 | Reward:    63.3 | Avg100:    -6.0 | Best:   101.5 | Steps: 1000 | Loss: 0.4936
+Ep  880 | Reward:   -62.8 | Avg100:    -7.3 | Best:   101.5 | Steps: 138 | Loss: -0.5674
+Ep  890 | Reward:    80.2 | Avg100:    -7.0 | Best:   101.5 | Steps: 1000 | Loss: 0.4370
+Ep  900 | Reward:   -26.5 | Avg100:    -1.5 | Best:   101.5 | Steps: 1000 | Loss: 0.3587
+Ep  910 | Reward:    38.0 | Avg100:     3.8 | Best:   101.5 | Steps: 1000 | Loss: 0.3014
+Ep  920 | Reward:    -6.6 | Avg100:     6.6 | Best:   101.5 | Steps: 141 | Loss: -0.4735
+Ep  930 | Reward:     6.6 | Avg100:     6.1 | Best:   115.5 | Steps: 126 | Loss: -0.3161
+Ep  940 | Reward:   102.1 | Avg100:    11.5 | Best:   131.8 | Steps: 1000 | Loss: 0.7824
+Ep  950 | Reward:    36.0 | Avg100:    11.8 | Best:   131.8 | Steps: 1000 | Loss: 0.3389
+Ep  960 | Reward:    85.6 | Avg100:    12.6 | Best:   131.8 | Steps: 1000 | Loss: 0.4438
+Ep  970 | Reward:     7.8 | Avg100:     9.9 | Best:   131.8 | Steps: 187 | Loss: -0.6188
+Ep  980 | Reward:    72.2 | Avg100:    12.0 | Best:   131.8 | Steps: 1000 | Loss: 0.3184
+Ep  990 | Reward:    32.6 | Avg100:    18.0 | Best:   131.8 | Steps: 118 | Loss: -0.3407
+Ep 1000 | Reward:   101.3 | Avg100:    20.1 | Best:   131.8 | Steps: 1000 | Loss: 0.7303
+Ep 1010 | Reward:   116.6 | Avg100:    21.1 | Best:   131.8 | Steps: 1000 | Loss: 1.1804
+Ep 1020 | Reward:    44.7 | Avg100:    22.2 | Best:   131.8 | Steps: 162 | Loss: -0.1563
+Ep 1030 | Reward:    -0.4 | Avg100:    22.8 | Best:   131.8 | Steps: 184 | Loss: -0.2484
+Ep 1040 | Reward:    90.7 | Avg100:    22.6 | Best:   131.8 | Steps: 1000 | Loss: 0.2271
+Ep 1050 | Reward:    -8.0 | Avg100:    23.0 | Best:   131.8 | Steps: 128 | Loss: -0.4868
+Ep 1060 | Reward:    63.1 | Avg100:    20.5 | Best:   131.8 | Steps: 1000 | Loss: 0.5138
+Ep 1070 | Reward:   116.5 | Avg100:    26.7 | Best:   136.1 | Steps: 1000 | Loss: 0.1858
+Ep 1080 | Reward:   129.1 | Avg100:    32.8 | Best:   144.2 | Steps: 1000 | Loss: 0.4729
+Ep 1090 | Reward:    76.4 | Avg100:    31.6 | Best:   144.2 | Steps: 1000 | Loss: 0.3048
+Ep 1100 | Reward:   139.4 | Avg100:    34.7 | Best:   144.2 | Steps: 1000 | Loss: 0.4170
+Ep 1110 | Reward:    69.4 | Avg100:    36.9 | Best:   144.2 | Steps: 1000 | Loss: 0.2993
+Ep 1120 | Reward:   127.7 | Avg100:    41.3 | Best:   164.8 | Steps: 1000 | Loss: 0.3147
+Ep 1130 | Reward:   -24.2 | Avg100:    47.7 | Best:   164.8 | Steps: 185 | Loss: -0.3897
+Ep 1140 | Reward:    76.2 | Avg100:    47.3 | Best:   164.8 | Steps: 1000 | Loss: 0.1037
+Ep 1150 | Reward:   135.2 | Avg100:    54.8 | Best:   164.8 | Steps: 1000 | Loss: 0.2436
+Ep 1160 | Reward:    68.2 | Avg100:    57.4 | Best:   164.8 | Steps: 1000 | Loss: 0.2111
+Ep 1170 | Reward:    41.1 | Avg100:    60.6 | Best:   164.8 | Steps: 131 | Loss: -0.4873
+Ep 1180 | Reward:   127.7 | Avg100:    56.0 | Best:   164.8 | Steps: 1000 | Loss: 0.2973
+Ep 1190 | Reward:   104.5 | Avg100:    57.3 | Best:   164.8 | Steps: 1000 | Loss: 0.6456
+Ep 1200 | Reward:     4.2 | Avg100:    54.4 | Best:   169.8 | Steps: 114 | Loss: -0.3295
+Ep 1210 | Reward:    95.5 | Avg100:    53.6 | Best:   169.8 | Steps: 1000 | Loss: 0.8994
+Ep 1220 | Reward:   -23.2 | Avg100:    47.8 | Best:   169.8 | Steps: 117 | Loss: -0.1266
+Ep 1230 | Reward:   134.0 | Avg100:    40.4 | Best:   169.8 | Steps: 1000 | Loss: 0.4386
+Ep 1240 | Reward:     4.5 | Avg100:    44.6 | Best:   169.8 | Steps: 141 | Loss: -0.4470
+Ep 1250 | Reward:    91.2 | Avg100:    45.1 | Best:   169.8 | Steps: 1000 | Loss: 0.2919
+Ep 1260 | Reward:    30.4 | Avg100:    45.8 | Best:   169.8 | Steps: 175 | Loss: -0.5407
+Ep 1270 | Reward:   127.1 | Avg100:    43.6 | Best:   169.8 | Steps: 1000 | Loss: 0.1893
+Ep 1280 | Reward:    34.4 | Avg100:    47.8 | Best:   169.8 | Steps: 157 | Loss: -0.4039
+Ep 1290 | Reward:    -1.3 | Avg100:    48.1 | Best:   169.8 | Steps: 147 | Loss: -0.4006
+Ep 1300 | Reward:     0.9 | Avg100:    49.2 | Best:   169.8 | Steps: 178 | Loss: -0.4308
+Ep 1310 | Reward:  -166.9 | Avg100:    48.0 | Best:   169.8 | Steps: 230 | Loss: -0.1991
+Ep 1320 | Reward:   132.3 | Avg100:    51.2 | Best:   169.8 | Steps: 1000 | Loss: 0.3722
+Ep 1330 | Reward:   131.1 | Avg100:    58.8 | Best:   169.8 | Steps: 1000 | Loss: 0.0951
+Ep 1340 | Reward:   167.7 | Avg100:    59.2 | Best:   169.8 | Steps: 1000 | Loss: 0.1745
+Ep 1350 | Reward:    85.6 | Avg100:    53.2 | Best:   169.8 | Steps: 1000 | Loss: 0.1144
+Ep 1360 | Reward:   138.4 | Avg100:    57.9 | Best:   169.8 | Steps: 1000 | Loss: 0.0901
+Ep 1370 | Reward:   181.7 | Avg100:    61.6 | Best:   181.7 | Steps: 1000 | Loss: 0.1579
+Ep 1380 | Reward:    -1.0 | Avg100:    57.6 | Best:   181.7 | Steps: 134 | Loss: -0.3361
+Ep 1390 | Reward:   -24.0 | Avg100:    58.8 | Best:   181.7 | Steps:  80 | Loss: -0.0180
+Ep 1400 | Reward:    47.4 | Avg100:    55.8 | Best:   181.7 | Steps: 126 | Loss: -0.2859
+Ep 1410 | Reward:    39.0 | Avg100:    54.5 | Best:   181.7 | Steps: 103 | Loss: -0.0071
+Ep 1420 | Reward:   117.8 | Avg100:    55.0 | Best:   181.7 | Steps: 1000 | Loss: 1.1489
+Ep 1430 | Reward:   149.5 | Avg100:    52.3 | Best:   181.7 | Steps: 1000 | Loss: 0.4582
+Ep 1440 | Reward:    -6.9 | Avg100:    41.1 | Best:   181.7 | Steps: 1000 | Loss: 0.2794
+Ep 1450 | Reward:   104.6 | Avg100:    40.4 | Best:   181.7 | Steps: 1000 | Loss: 0.2387
+Ep 1460 | Reward:   121.2 | Avg100:    32.9 | Best:   181.7 | Steps: 1000 | Loss: 0.2439
+Ep 1470 | Reward:   -14.3 | Avg100:    24.7 | Best:   181.7 | Steps: 1000 | Loss: 0.7144
+Ep 1480 | Reward:   106.0 | Avg100:    28.9 | Best:   181.7 | Steps: 1000 | Loss: 0.1573
+Ep 1490 | Reward:   116.8 | Avg100:    31.4 | Best:   181.7 | Steps: 1000 | Loss: 0.2553
+Ep 1500 | Reward:    42.9 | Avg100:    31.6 | Best:   181.7 | Steps: 129 | Loss: -0.1533
+Ep 1510 | Reward:    44.0 | Avg100:    39.4 | Best:   253.3 | Steps: 113 | Loss: -0.5277
+Ep 1520 | Reward:    27.2 | Avg100:    39.2 | Best:   253.3 | Steps: 119 | Loss: -0.3989
+Ep 1530 | Reward:    22.2 | Avg100:    40.4 | Best:   253.3 | Steps: 116 | Loss: -0.2562
+Ep 1540 | Reward:   154.6 | Avg100:    49.9 | Best:   253.3 | Steps: 1000 | Loss: 0.4566
+Ep 1550 | Reward:   121.2 | Avg100:    52.3 | Best:   253.3 | Steps: 1000 | Loss: 0.3392
+Ep 1560 | Reward:    33.4 | Avg100:    56.5 | Best:   253.3 | Steps: 190 | Loss: -0.4040
+Ep 1570 | Reward:   -53.3 | Avg100:    61.7 | Best:   253.3 | Steps: 290 | Loss: -0.3676
+Ep 1580 | Reward:    93.2 | Avg100:    60.6 | Best:   253.3 | Steps: 1000 | Loss: 0.1616
+Ep 1590 | Reward:   138.9 | Avg100:    62.0 | Best:   253.3 | Steps: 1000 | Loss: -0.1782
+Ep 1600 | Reward:    92.7 | Avg100:    69.7 | Best:   253.3 | Steps: 1000 | Loss: 0.2521
+Ep 1610 | Reward:     4.2 | Avg100:    67.6 | Best:   253.3 | Steps: 133 | Loss: -0.0159
+Ep 1620 | Reward:  -218.3 | Avg100:    64.3 | Best:   253.3 | Steps: 184 | Loss: 0.1640
+Ep 1630 | Reward:   104.5 | Avg100:    66.2 | Best:   253.3 | Steps: 1000 | Loss: 0.3487
+Ep 1640 | Reward:    96.1 | Avg100:    65.7 | Best:   253.3 | Steps: 1000 | Loss: 0.1809
+Ep 1650 | Reward:   -91.0 | Avg100:    66.7 | Best:   253.3 | Steps: 762 | Loss: 0.0043
+Ep 1660 | Reward:    95.8 | Avg100:    70.3 | Best:   253.3 | Steps: 1000 | Loss: 0.2502
+Ep 1670 | Reward:    92.1 | Avg100:    73.9 | Best:   253.3 | Steps: 1000 | Loss: -0.0528
+Ep 1680 | Reward:    94.0 | Avg100:    75.3 | Best:   253.3 | Steps: 1000 | Loss: 0.2739
+Ep 1690 | Reward:    95.0 | Avg100:    79.1 | Best:   253.3 | Steps: 1000 | Loss: 0.0263
+Ep 1700 | Reward:    42.8 | Avg100:    76.3 | Best:   253.3 | Steps: 158 | Loss: -0.1699
+Ep 1710 | Reward:   129.6 | Avg100:    74.7 | Best:   253.3 | Steps: 1000 | Loss: 0.1066
+Ep 1720 | Reward:   158.8 | Avg100:    79.1 | Best:   253.3 | Steps: 1000 | Loss: 0.2081
+Ep 1730 | Reward:     1.6 | Avg100:    80.2 | Best:   253.3 | Steps: 100 | Loss: 0.6001
+Ep 1740 | Reward:   140.4 | Avg100:    81.4 | Best:   253.3 | Steps: 1000 | Loss: 0.2761
+Ep 1750 | Reward:   153.5 | Avg100:    86.7 | Best:   253.3 | Steps: 1000 | Loss: 0.1590
+Ep 1760 | Reward:   113.3 | Avg100:    85.6 | Best:   253.3 | Steps: 1000 | Loss: 0.1324
+Ep 1770 | Reward:   150.2 | Avg100:    85.9 | Best:   253.3 | Steps: 1000 | Loss: 0.2855
+Ep 1780 | Reward:    -2.3 | Avg100:    84.5 | Best:   253.3 | Steps: 122 | Loss: 0.4095
+Ep 1790 | Reward:   151.8 | Avg100:    79.8 | Best:   253.3 | Steps: 1000 | Loss: 0.3347
+Ep 1800 | Reward:     9.9 | Avg100:    82.3 | Best:   253.3 | Steps: 179 | Loss: -0.3500
+Ep 1810 | Reward:   142.4 | Avg100:    83.6 | Best:   253.3 | Steps: 1000 | Loss: 0.1924
+Ep 1820 | Reward:   156.3 | Avg100:    87.9 | Best:   253.3 | Steps: 1000 | Loss: 0.1530
+Ep 1830 | Reward:   121.3 | Avg100:    87.7 | Best:   253.3 | Steps: 1000 | Loss: 0.0342
+Ep 1840 | Reward:   -72.8 | Avg100:    87.6 | Best:   253.3 | Steps: 327 | Loss: -0.4999
+Ep 1850 | Reward:   108.0 | Avg100:    86.5 | Best:   253.3 | Steps: 1000 | Loss: 0.0094
+Ep 1860 | Reward:    24.2 | Avg100:    88.5 | Best:   253.3 | Steps: 158 | Loss: -0.3886
+Ep 1870 | Reward:   148.2 | Avg100:    85.9 | Best:   253.3 | Steps: 1000 | Loss: 0.1301
+Ep 1880 | Reward:   161.7 | Avg100:    89.4 | Best:   253.3 | Steps: 1000 | Loss: 0.1242
+Ep 1890 | Reward:    32.3 | Avg100:    91.1 | Best:   253.3 | Steps: 1000 | Loss: 0.0514
+Ep 1900 | Reward:   118.9 | Avg100:    94.0 | Best:   253.3 | Steps: 1000 | Loss: 0.0259
+Ep 1910 | Reward:   137.2 | Avg100:    97.9 | Best:   253.3 | Steps: 1000 | Loss: 0.0857
+Ep 1920 | Reward:    53.5 | Avg100:    99.3 | Best:   253.3 | Steps: 1000 | Loss: 0.0528
+Ep 1930 | Reward:   131.0 | Avg100:   100.9 | Best:   253.3 | Steps: 1000 | Loss: 0.0986
+Ep 1940 | Reward:   149.5 | Avg100:   100.4 | Best:   253.3 | Steps: 1000 | Loss: 0.0757
+Ep 1950 | Reward:   106.3 | Avg100:   100.9 | Best:   253.3 | Steps: 1000 | Loss: 0.0777
+Ep 1960 | Reward:   169.5 | Avg100:   103.4 | Best:   253.3 | Steps: 1000 | Loss: 0.0117
+Ep 1970 | Reward:   154.6 | Avg100:   107.5 | Best:   253.3 | Steps: 1000 | Loss: 0.0278
+Ep 1980 | Reward:   135.5 | Avg100:   110.1 | Best:   253.3 | Steps: 1000 | Loss: 0.0060
+Ep 1990 | Reward:   162.8 | Avg100:   111.5 | Best:   253.3 | Steps: 1000 | Loss: -0.0226
+Ep 2000 | Reward:   101.3 | Avg100:   112.5 | Best:   253.3 | Steps: 1000 | Loss: 0.0229
+Ep 2010 | Reward:    -0.2 | Avg100:   112.0 | Best:   253.3 | Steps: 190 | Loss: -0.2698
+Ep 2020 | Reward:   132.0 | Avg100:   111.6 | Best:   253.3 | Steps: 1000 | Loss: 0.1705
+Ep 2030 | Reward:   174.2 | Avg100:   114.4 | Best:   253.3 | Steps: 1000 | Loss: -0.0936
+Ep 2040 | Reward:   150.1 | Avg100:   118.4 | Best:   253.3 | Steps: 1000 | Loss: 0.0901
+Ep 2050 | Reward:    75.0 | Avg100:   115.9 | Best:   253.3 | Steps: 128 | Loss: 0.5321
+Ep 2060 | Reward:   134.4 | Avg100:   113.7 | Best:   253.3 | Steps: 1000 | Loss: 0.1214
+Ep 2070 | Reward:   114.4 | Avg100:   113.9 | Best:   253.3 | Steps: 1000 | Loss: 0.0090
+Ep 2080 | Reward:   158.3 | Avg100:   111.2 | Best:   253.3 | Steps: 1000 | Loss: 0.0899
+Ep 2090 | Reward:   130.4 | Avg100:   111.5 | Best:   253.3 | Steps: 1000 | Loss: -0.0458
+Ep 2100 | Reward:   130.2 | Avg100:   107.5 | Best:   253.3 | Steps: 1000 | Loss: 0.0276
+Ep 2110 | Reward:   134.8 | Avg100:   110.2 | Best:   253.3 | Steps: 1000 | Loss: 0.0250
+Ep 2120 | Reward:   128.6 | Avg100:   109.6 | Best:   253.3 | Steps: 1000 | Loss: -0.0563
+Ep 2130 | Reward:   106.7 | Avg100:   109.7 | Best:   253.3 | Steps: 1000 | Loss: -0.0036
+Ep 2140 | Reward:   133.8 | Avg100:   109.7 | Best:   253.3 | Steps: 1000 | Loss: 0.0660
+Ep 2150 | Reward:    21.5 | Avg100:   109.2 | Best:   253.3 | Steps: 160 | Loss: -0.0680
+Ep 2160 | Reward:   184.9 | Avg100:   113.6 | Best:   253.3 | Steps: 1000 | Loss: 0.0127
+Ep 2170 | Reward:   154.5 | Avg100:   112.5 | Best:   253.3 | Steps: 1000 | Loss: 0.0182
+Ep 2180 | Reward:   153.6 | Avg100:   114.3 | Best:   253.3 | Steps: 1000 | Loss: 0.0961
+Ep 2190 | Reward:   125.8 | Avg100:   113.1 | Best:   253.3 | Steps: 1000 | Loss: 0.1396
+Ep 2200 | Reward:  -136.8 | Avg100:   111.3 | Best:   253.3 | Steps: 589 | Loss: -0.1507
+Ep 2210 | Reward:   155.2 | Avg100:   110.7 | Best:   253.3 | Steps: 1000 | Loss: -0.0060
+Ep 2220 | Reward:   178.3 | Avg100:   113.7 | Best:   253.3 | Steps: 1000 | Loss: 0.0561
+Ep 2230 | Reward:   157.0 | Avg100:   110.8 | Best:   253.3 | Steps: 1000 | Loss: 0.1844
+Ep 2240 | Reward:    20.9 | Avg100:   110.7 | Best:   253.3 | Steps: 123 | Loss: 0.3667
+Ep 2250 | Reward:    31.0 | Avg100:   104.2 | Best:   253.3 | Steps: 123 | Loss: -0.1109
+Ep 2260 | Reward:  -146.4 | Avg100:    96.0 | Best:   253.3 | Steps: 105 | Loss: 0.6401
+Ep 2270 | Reward:   127.8 | Avg100:    92.3 | Best:   253.3 | Steps: 1000 | Loss: 0.4001
+Ep 2280 | Reward:   -11.6 | Avg100:    87.9 | Best:   253.3 | Steps: 115 | Loss: -0.1087
+Ep 2290 | Reward:    -9.1 | Avg100:    80.9 | Best:   253.3 | Steps: 125 | Loss: -0.2422
+Ep 2300 | Reward:   136.1 | Avg100:    82.6 | Best:   253.3 | Steps: 1000 | Loss: 0.4581
+Ep 2310 | Reward:     7.2 | Avg100:    73.6 | Best:   253.3 | Steps: 121 | Loss: -0.3321
+Ep 2320 | Reward:    42.0 | Avg100:    67.3 | Best:   253.3 | Steps: 123 | Loss: -0.4466
+Ep 2330 | Reward:   -49.8 | Avg100:    63.5 | Best:   253.3 | Steps:  80 | Loss: -0.2272
+Ep 2340 | Reward:   134.3 | Avg100:    58.9 | Best:   253.3 | Steps: 1000 | Loss: 0.3952
+Ep 2350 | Reward:   -50.7 | Avg100:    63.4 | Best:   253.3 | Steps:  88 | Loss: -0.0284
+Ep 2360 | Reward:    -9.5 | Avg100:    62.0 | Best:   253.3 | Steps: 123 | Loss: -0.2364
+Ep 2370 | Reward:   112.1 | Avg100:    60.3 | Best:   253.3 | Steps: 1000 | Loss: 0.5204
+Ep 2380 | Reward:   105.9 | Avg100:    61.5 | Best:   253.3 | Steps: 1000 | Loss: 0.1769
+Ep 2390 | Reward:    42.5 | Avg100:    65.6 | Best:   253.3 | Steps:  83 | Loss: 0.0017
+Ep 2400 | Reward:   110.2 | Avg100:    63.6 | Best:   253.3 | Steps: 1000 | Loss: 0.1257
+Ep 2410 | Reward:   124.4 | Avg100:    66.1 | Best:   253.3 | Steps: 1000 | Loss: 0.1435
+Ep 2420 | Reward:   143.1 | Avg100:    68.2 | Best:   253.3 | Steps: 1000 | Loss: 0.1954
+Ep 2430 | Reward:    -4.2 | Avg100:    71.5 | Best:   253.3 | Steps: 146 | Loss: -0.1039
+Ep 2440 | Reward:   126.4 | Avg100:    74.1 | Best:   253.3 | Steps: 1000 | Loss: -0.0041
+Ep 2450 | Reward:   125.2 | Avg100:    76.2 | Best:   253.3 | Steps: 1000 | Loss: 0.1781
+Ep 2460 | Reward:   146.0 | Avg100:    80.2 | Best:   253.3 | Steps: 1000 | Loss: 0.0635
+Ep 2470 | Reward:   148.6 | Avg100:    86.7 | Best:   253.3 | Steps: 1000 | Loss: 0.0085
+Ep 2480 | Reward:   138.7 | Avg100:    87.6 | Best:   253.3 | Steps: 1000 | Loss: -0.0053
+Ep 2490 | Reward:    22.2 | Avg100:    91.6 | Best:   253.3 | Steps: 167 | Loss: 0.0983
+Ep 2500 | Reward:   162.7 | Avg100:    97.7 | Best:   253.3 | Steps: 1000 | Loss: 0.0278
+Ep 2510 | Reward:    78.0 | Avg100:   104.1 | Best:   253.3 | Steps: 1000 | Loss: -0.0564
+Ep 2520 | Reward:   144.9 | Avg100:   105.8 | Best:   253.3 | Steps: 1000 | Loss: 0.1119
+Ep 2530 | Reward:   139.5 | Avg100:   107.1 | Best:   253.3 | Steps: 1000 | Loss: 0.0148
+Ep 2540 | Reward:   121.8 | Avg100:   108.7 | Best:   253.3 | Steps: 1000 | Loss: -0.1419
+Ep 2550 | Reward:   144.8 | Avg100:   108.3 | Best:   253.3 | Steps: 1000 | Loss: 0.0946
+Ep 2560 | Reward:   189.6 | Avg100:   104.2 | Best:   253.3 | Steps: 1000 | Loss: 0.1918
+Ep 2570 | Reward:   118.8 | Avg100:   102.9 | Best:   253.3 | Steps: 1000 | Loss: 0.1617
+Ep 2580 | Reward:    -7.0 | Avg100:   101.2 | Best:   253.3 | Steps: 111 | Loss: -0.0170
+Ep 2590 | Reward:   137.0 | Avg100:    97.7 | Best:   253.3 | Steps: 1000 | Loss: 0.1688
+Ep 2600 | Reward:   121.7 | Avg100:    96.1 | Best:   253.3 | Steps: 1000 | Loss: -0.0322
+Ep 2610 | Reward:   135.5 | Avg100:    96.9 | Best:   253.3 | Steps: 1000 | Loss: 0.0433
+Ep 2620 | Reward:   124.8 | Avg100:    94.4 | Best:   253.3 | Steps: 1000 | Loss: 0.0118
+Ep 2630 | Reward:   118.6 | Avg100:    93.9 | Best:   253.3 | Steps: 1000 | Loss: 0.0439
+Ep 2640 | Reward:    76.1 | Avg100:    90.7 | Best:   253.3 | Steps: 1000 | Loss: 0.1237
+Ep 2650 | Reward:   124.4 | Avg100:    95.0 | Best:   253.3 | Steps: 1000 | Loss: 0.0466
+Ep 2660 | Reward:   117.2 | Avg100:    99.8 | Best:   253.3 | Steps: 1000 | Loss: 0.2211
+Ep 2670 | Reward:   131.3 | Avg100:    99.9 | Best:   253.3 | Steps: 1000 | Loss: -0.1221
+Ep 2680 | Reward:     8.7 | Avg100:   100.2 | Best:   253.3 | Steps: 139 | Loss: 0.2689
+Ep 2690 | Reward:    38.7 | Avg100:   102.6 | Best:   253.3 | Steps: 150 | Loss: 0.0778
+Ep 2700 | Reward:    59.7 | Avg100:   104.5 | Best:   253.3 | Steps: 1000 | Loss: 0.1125
+Ep 2710 | Reward:   134.3 | Avg100:   100.3 | Best:   253.3 | Steps: 1000 | Loss: -0.1275
+Ep 2720 | Reward:   158.3 | Avg100:   104.3 | Best:   253.3 | Steps: 1000 | Loss: 0.0752
+Ep 2730 | Reward:   166.8 | Avg100:   107.0 | Best:   253.3 | Steps: 1000 | Loss: 0.0662
+Ep 2740 | Reward:    49.2 | Avg100:   107.6 | Best:   253.3 | Steps: 143 | Loss: 0.1163
+Ep 2750 | Reward:   181.0 | Avg100:   106.9 | Best:   253.3 | Steps: 1000 | Loss: -0.0027
+Ep 2760 | Reward:   174.7 | Avg100:   109.2 | Best:   253.3 | Steps: 1000 | Loss: 0.1542
+Ep 2770 | Reward:   136.0 | Avg100:   105.0 | Best:   253.3 | Steps: 1000 | Loss: 0.0672
+Ep 2780 | Reward:   152.8 | Avg100:   110.0 | Best:   253.3 | Steps: 1000 | Loss: -0.0013
+Ep 2790 | Reward:    90.4 | Avg100:   110.4 | Best:   253.3 | Steps: 1000 | Loss: 0.0639
+Ep 2800 | Reward:   136.4 | Avg100:   107.1 | Best:   253.3 | Steps: 1000 | Loss: 0.1195
+Ep 2810 | Reward:    83.7 | Avg100:   110.6 | Best:   253.3 | Steps: 1000 | Loss: -0.0127
+Ep 2820 | Reward:    44.3 | Avg100:   109.4 | Best:   253.3 | Steps: 133 | Loss: 0.2917
+Ep 2830 | Reward:   132.3 | Avg100:   108.6 | Best:   253.3 | Steps: 1000 | Loss: 0.0584
+Ep 2840 | Reward:    24.1 | Avg100:   112.3 | Best:   253.3 | Steps: 145 | Loss: 0.1415
+Ep 2850 | Reward:   127.7 | Avg100:   111.1 | Best:   253.3 | Steps: 1000 | Loss: 0.0086
+Ep 2860 | Reward:   142.7 | Avg100:   110.4 | Best:   253.3 | Steps: 1000 | Loss: -0.0794
+Ep 2870 | Reward:   138.0 | Avg100:   115.3 | Best:   253.3 | Steps: 1000 | Loss: 0.0678
+Ep 2880 | Reward:   136.0 | Avg100:   110.6 | Best:   253.3 | Steps: 1000 | Loss: 0.0872
+Ep 2890 | Reward:   135.2 | Avg100:   112.3 | Best:   253.3 | Steps: 1000 | Loss: -0.0478
+Ep 2900 | Reward:   134.7 | Avg100:   117.1 | Best:   253.3 | Steps: 1000 | Loss: 0.0957
+Ep 2910 | Reward:   178.1 | Avg100:   116.3 | Best:   253.3 | Steps: 1000 | Loss: 0.0666
+Ep 2920 | Reward:   166.8 | Avg100:   112.9 | Best:   253.3 | Steps: 1000 | Loss: 0.1388
+Ep 2930 | Reward:     6.5 | Avg100:   110.4 | Best:   253.3 | Steps: 111 | Loss: -0.1993
+Ep 2940 | Reward:   135.6 | Avg100:   107.3 | Best:   253.3 | Steps: 1000 | Loss: 0.1312
+Ep 2950 | Reward:   147.1 | Avg100:   103.1 | Best:   253.3 | Steps: 1000 | Loss: 0.2390
+Ep 2960 | Reward:   128.7 | Avg100:   101.5 | Best:   253.3 | Steps: 1000 | Loss: 0.1878
+Ep 2970 | Reward:   139.6 | Avg100:   103.1 | Best:   253.3 | Steps: 1000 | Loss: 0.0608
+Ep 2980 | Reward:   124.4 | Avg100:   105.5 | Best:   253.3 | Steps: 1000 | Loss: 0.0293
+Ep 2990 | Reward:   138.4 | Avg100:   104.2 | Best:   253.3 | Steps: 1000 | Loss: 0.1092
+Ep 3000 | Reward:   150.4 | Avg100:   103.8 | Best:   253.3 | Steps: 1000 | Loss: -0.0069
+
+💾 Модель сохранена
+
+============================================================
+📊 АНАЛИЗ СТРАТЕГИИ
+============================================================
+
+📍 Зависит над центром
+   Позиция: x=0.0, y=0.0, vx=0.0, vy=-0.5
+   Ценность состояния: 1.06
+   Вероятности действий:
+     0-Ничего:  0.90%
+     1-Левый:  1.71%
+     2-Главный: ██████████████████████████████████████ 95.75%
+     3-Правый:  1.64%
+
+📍 Смещен вправо, падает
+   Позиция: x=1.0, y=0.5, vx=0.0, vy=-1.0
+   Ценность состояния: 0.97
+   Вероятности действий:
+     0-Ничего:  0.76%
+     1-Левый:  1.66%
+     2-Главный: ██████████████████████████████████████ 96.26%
+     3-Правый:  1.32%
+
+📍 Смещен влево, высоко
+   Позиция: x=-1.0, y=1.0, vx=0.0, vy=-0.5
+   Ценность состояния: 1.55
+   Вероятности действий:
+     0-Ничего: ███████ 19.87%
+     1-Левый: █████ 12.83%
+     2-Главный: ████ 11.26%
+     3-Правый: ██████████████████████ 56.04%
+
+📍 Низко, быстро падает
+   Позиция: x=0.0, y=0.3, vx=0.0, vy=-2.0
+   Ценность состояния: 2.49
+   Вероятности действий:
+     0-Ничего:  0.00%
+     1-Левый:  0.00%
+     2-Главный: ███████████████████████████████████████ 100.00%
+     3-Правый:  0.00%
+
+📍 Высоко, почти завис
+   Позиция: x=0.0, y=1.5, vx=0.0, vy=-0.1
+   Ценность состояния: 1.82
+   Вероятности действий:
+     0-Ничего: █████████████ 32.67%
+     1-Левый: ████████████ 30.96%
+     2-Главный:  0.94%
+     3-Правый: ██████████████ 35.42%
+
+============================================================
+🎮 ТЕСТИРОВАНИЕ АГЕНТА
+============================================================
+
+Нажмите Enter для просмотра 5 тестовых посадок...
+Тест 1: Reward =   230.5 - ✅ ОТЛИЧНО
+Тест 2: Reward =    42.0 - ⚠️ НОРМАЛЬНО
+Тест 3: Reward =   240.0 - ✅ ОТЛИЧНО
+Тест 4: Reward =   269.0 - ✅ ОТЛИЧНО
+Тест 5: Reward =   235.3 - ✅ ОТЛИЧНО
+
+📊 Средняя награда: 203.4
+📈 Лучшая: 269.0
+📉 Худшая: 42.0
+✅ Успешных посадок: 4/5
