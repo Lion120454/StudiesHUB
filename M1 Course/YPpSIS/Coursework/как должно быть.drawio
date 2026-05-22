@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 YaBrowser/26.3.0.0 Safari/537.36">
+  <diagram id="JGQVs_PBx0skAOMNH3s6" name="Страница — 1">
+    <mxGraphModel dx="1338" dy="658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JJCejLX25qfTCNuqzmJt-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="IT-задача" vertex="1">
+          <mxGeometry height="30" width="60" x="-139" y="181" as="geometry" />
+        </mxCell>
+        <mxCell id="JJCejLX25qfTCNuqzmJt-2" edge="1" parent="1" source="JJCejLX25qfTCNuqzmJt-1" style="endArrow=classic;html=1;rounded=0;fontSize=16;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="155" y="218" as="sourcePoint" />
+            <mxPoint x="-21" y="196" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJCejLX25qfTCNuqzmJt-26" edge="1" parent="1" source="JJCejLX25qfTCNuqzmJt-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="JJCejLX25qfTCNuqzmJt-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JJCejLX25qfTCNuqzmJt-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="Декомпозиция задачи" vertex="1">
+          <mxGeometry height="74" width="132" x="-21" y="161" as="geometry" />
+        </mxCell>
+        <mxCell id="JJCejLX25qfTCNuqzmJt-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=16;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="199" as="sourcePoint" />
+            <mxPoint x="456" y="201" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJCejLX25qfTCNuqzmJt-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="а1" vertex="1">
+          <mxGeometry height="30" width="60" x="70" y="213" as="geometry" />
+        </mxCell>
+        <mxCell id="JJCejLX25qfTCNuqzmJt-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;span style=&quot;text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;Список подзадач&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;с распределением ролей&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;и примерным временем&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;реализации&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="201" x="385" y="201" as="geometry" />
+        </mxCell>
+        <mxCell id="JJCejLX25qfTCNuqzmJt-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Методология" vertex="1">
+          <mxGeometry height="30" width="105" x="-7.5" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="JJCejLX25qfTCNuqzmJt-23" edge="1" parent="1" source="JJCejLX25qfTCNuqzmJt-22" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JJCejLX25qfTCNuqzmJt-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="279" y="240" as="sourcePoint" />
+            <mxPoint x="329" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJCejLX25qfTCNuqzmJt-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="Распределение ролей" vertex="1">
+          <mxGeometry height="74" width="132" x="208" y="161" as="geometry" />
+        </mxCell>
+        <mxCell id="JJCejLX25qfTCNuqzmJt-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="а2" vertex="1">
+          <mxGeometry height="30" width="60" x="296" y="211" as="geometry" />
+        </mxCell>
+        <mxCell id="JJCejLX25qfTCNuqzmJt-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Список подзадач" vertex="1">
+          <mxGeometry height="30" width="60" x="130" y="166" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

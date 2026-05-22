@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 YaBrowser/26.3.0.0 Safari/537.36">
+  <diagram id="JGQVs_PBx0skAOMNH3s6" name="Страница — 1">
+    <mxGraphModel dx="1526" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JJCejLX25qfTCNuqzmJt-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="IT-задача" vertex="1">
+          <mxGeometry height="30" width="60" x="-139" y="181" as="geometry" />
+        </mxCell>
+        <mxCell id="JJCejLX25qfTCNuqzmJt-2" edge="1" parent="1" source="JJCejLX25qfTCNuqzmJt-1" style="endArrow=classic;html=1;rounded=0;fontSize=16;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="JJCejLX25qfTCNuqzmJt-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="155" y="218" as="sourcePoint" />
+            <mxPoint x="-19" y="194" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJCejLX25qfTCNuqzmJt-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="Анализ задачи" vertex="1">
+          <mxGeometry height="60" width="120" x="-21" y="166" as="geometry" />
+        </mxCell>
+        <mxCell id="JJCejLX25qfTCNuqzmJt-4" edge="1" parent="1" source="JJCejLX25qfTCNuqzmJt-3" style="endArrow=classic;html=1;rounded=0;fontSize=16;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JJCejLX25qfTCNuqzmJt-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="193" as="sourcePoint" />
+            <mxPoint x="198" y="196" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJCejLX25qfTCNuqzmJt-5" connectable="0" parent="JJCejLX25qfTCNuqzmJt-4" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;fontSize=16;" value="Методология" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJCejLX25qfTCNuqzmJt-8" edge="1" parent="1" source="JJCejLX25qfTCNuqzmJt-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;startSize=8;endSize=8;" target="JJCejLX25qfTCNuqzmJt-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="398.7142857142858" y="198.1428571428571" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJCejLX25qfTCNuqzmJt-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="Дробление задачи" vertex="1">
+          <mxGeometry height="60" width="120" x="212" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="JJCejLX25qfTCNuqzmJt-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="Оценка подзадач и времени реализации" vertex="1">
+          <mxGeometry height="74" width="132" x="420" y="159" as="geometry" />
+        </mxCell>
+        <mxCell id="JJCejLX25qfTCNuqzmJt-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=16;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="552" y="198" as="sourcePoint" />
+            <mxPoint x="668" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJCejLX25qfTCNuqzmJt-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;font&gt;Список подзадач&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="342" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="JJCejLX25qfTCNuqzmJt-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="а1" vertex="1">
+          <mxGeometry height="30" width="60" x="59" y="203" as="geometry" />
+        </mxCell>
+        <mxCell id="JJCejLX25qfTCNuqzmJt-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="а2" vertex="1">
+          <mxGeometry height="30" width="60" x="289" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="JJCejLX25qfTCNuqzmJt-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="а3" vertex="1">
+          <mxGeometry height="30" width="60" x="511" y="211" as="geometry" />
+        </mxCell>
+        <mxCell id="JJCejLX25qfTCNuqzmJt-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;span style=&quot;text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;Список подзадач&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;с распределением ролей&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;и примерным временем&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;реализации&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="201" x="568" y="208" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
