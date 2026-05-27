@@ -123,11 +123,11 @@ plt.show()
 # ==========================
 # 3. Корневые оценки качества
 # ==========================
-# Получение полюсов и нулей правильно
+# Получение полюсов и нулей
 poles = ctrl.poles(closed_loop)
 zeros = ctrl.zeros(closed_loop)
 
-# Степень устойчивости αmin (минимальное |Re(p)| для устойчивых полюсов)
+# Степень устойчивости αmin
 stable_poles = [p for p in poles if np.real(p) < 0]
 if stable_poles:
     alpha_min = min(-np.real(p) for p in stable_poles)
