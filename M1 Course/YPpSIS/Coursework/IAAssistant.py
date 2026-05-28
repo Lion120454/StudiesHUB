@@ -1364,4 +1364,4 @@ if __name__ == "__main__":
     root.geometry(f'{width}x{height}+{x}+{y}')
     
     app = DeepSeekAIAssistant(root)
-    root.mainloop() 
+    root.mainloop()
