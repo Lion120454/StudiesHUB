@@ -8,46 +8,67 @@ warnings.filterwarnings('ignore')
 # ==========================
 # 1. Параметры системы (вариант)
 # ==========================
-K = 25  # коэффициент регулятора скорости W1(s) = K (задаётся по варианту)
+K = 5.0  # коэффициент регулятора скорости W1(s) = K (задаётся по варианту)
 
 # Передаточные функции звеньев
-W1 = ctrl.TransferFunction([K], [1])                     # K
-W2 = ctrl.TransferFunction([0.1], [0.001, 1])           # 0.1/(1+0.001s)
-W3 = ctrl.TransferFunction([10], [0.04, 1])             # 10/(1+0.04s)
-W4 = ctrl.TransferFunction([1], [0.004, 0.376])         # 1/(0.004s + 0.376)
-W5 = ctrl.TransferFunction([0.8], [1])                  # 0.8
-W6 = ctrl.TransferFunction([1], [0.065, 0])             # 1/(0.065s) -> интегратор
-W7 = ctrl.TransferFunction([0.8], [1])                  # 0.8
-W8 = ctrl.TransferFunction([0.8], [1])                  # ДТ
-W9 = ctrl.TransferFunction([0.14], [1])                 # ДС
+W1 = ctrl.TransferFunction([K], [1])                     # K - регулятор скорости
+W2 = ctrl.TransferFunction([0.1], [0.001, 1])           # 0.1/(1+0.001s) - регулятор тока
+W3 = ctrl.TransferFunction([10], [0.04, 1])             # 10/(1+0.04s) - тиристорный преобразователь
+W4 = ctrl.TransferFunction([1], [0.004, 0.376])         # 1/(0.004s + 0.376) - якорная цепь
+W5 = ctrl.TransferFunction([0.8], [1])                  # 0.8 - момент/ток
+W6 = ctrl.TransferFunction([1], [0.065, 0])             # 1/(0.065s) - механика (скорость/момент)
+W7 = ctrl.TransferFunction([0.8], [1])                  # 0.8 - ЭДС/скорость
+W8 = ctrl.TransferFunction([0.8], [1])                  # 0.8 - датчик тока (обратная связь)
+W9 = ctrl.TransferFunction([0.14], [1])                 # 0.14 - датчик частоты вращения
 
-# Построение модели двигателя с внутренней обратной связью по ЭДС
-# Двигатель: напряжение -> ток -> момент -> скорость
-# W4: ток/напряжение = 1/(R + Ls)
-# W5: момент/ток = 0.8
-# W6: скорость/момент = 1/(Js)
-# W7: ЭДС/скорость = 0.8
-# Обратная связь по ЭДС: Uп = U - W7*omega
+print("=== Передаточные функции звеньев ===")
+print(f"W1 (регулятор скорости): {W1}")
+print(f"W2 (регулятор тока): {W2}")
+print(f"W3 (ТП): {W3}")
+print(f"W4 (R+Lp): {W4}")
+print(f"W5 (момент/ток): {W5}")
+print(f"W6 (механика): {W6}")
+print(f"W7 (ЭДС/скорость): {W7}")
+print(f"W8 (датчик тока): {W8}")
+print(f"W9 (датчик скорости): {W9}")
 
-# Прямая цепь двигателя: ток -> момент -> скорость
-motor_forward = ctrl.series(W4, W5)  # напряжение -> момент
-motor_forward = ctrl.series(motor_forward, W6)  # напряжение -> скорость
-# Замкнутый двигатель с учётом ЭДС
-motor = ctrl.feedback(motor_forward, W7, sign=-1)
+# ==========================
+# 2. Построение структурной схемы (с учётом W8)
+# ==========================
 
-# Разомкнутая система (без датчика скорости)
-open_loop = ctrl.series(W1, W2)
-open_loop = ctrl.series(open_loop, W3)
+# 2.1 Контур регулирования тока (внутренний контур)
+# Регулятор тока W2 -> ТП W3 -> обратная связь по току W8
+current_controller = ctrl.series(W2, W3)  # W2 * W3
+# Замыкаем через W8 (обратная связь по току)
+current_loop = ctrl.feedback(current_controller, W8, sign=-1)
+
+print(f"\nПФ замкнутого контура тока: {current_loop}")
+
+# 2.2 Модель двигателя с учётом ЭДС
+# Прямая цепь: ток -> момент -> скорость
+#   current_loop (формирует ток) -> W4 (ток/напряжение) -> W5 (момент) -> W6 (скорость)
+motor_current = ctrl.series(W4, W5)   # напряжение -> момент
+motor_current = ctrl.series(motor_current, W6)  # напряжение -> скорость
+# Обратная связь по ЭДС W7 (скорость -> ЭДС, вычитается из напряжения)
+motor = ctrl.feedback(motor_current, W7, sign=-1)
+
+print(f"ПФ двигателя с ЭДС: {motor}")
+
+# 2.3 Полная разомкнутая система
+# Регулятор скорости W1 -> контур тока -> двигатель
+open_loop = ctrl.series(W1, current_loop)
 open_loop = ctrl.series(open_loop, motor)
 
-# Замкнутая система с датчиком скорости
+print(f"\nПФ разомкнутой системы (без датчика скорости): {open_loop}")
+
+# 2.4 Замкнутая система с датчиком скорости W9
 closed_loop = ctrl.feedback(open_loop, W9, sign=-1)
 
-print("Передаточная функция замкнутой системы:")
+print(f"\nПФ замкнутой системы (с датчиком скорости W9):")
 print(closed_loop)
 
 # ==========================
-# 2. Прямые оценки качества по переходной характеристике
+# 3. Прямые оценки качества по переходной характеристике
 # ==========================
 t, y = ctrl.step_response(closed_loop, T=np.linspace(0, 2, 5000))
 y_final = y[-1]
@@ -57,12 +78,12 @@ delta = 0.05 * y_final  # 5% зона
 in_zone = np.abs(y - y_final) <= delta
 t_reg_idx = np.where(in_zone)[0]
 if len(t_reg_idx) > 0:
-    # Находим последний выход из зоны
     changes = np.diff(in_zone.astype(int))
     last_exit = np.where(changes == -1)[0]
     if len(last_exit) > 0:
         t_reg_start = last_exit[-1] + 1
-        t_reg = t[t_reg_idx[t_reg_idx >= t_reg_start][0]] if len(t_reg_idx[t_reg_idx >= t_reg_start]) > 0 else t[-1]
+        t_reg_idx2 = t_reg_idx[t_reg_idx >= t_reg_start]
+        t_reg = t[t_reg_idx2[0]] if len(t_reg_idx2) > 0 else t[-1]
     else:
         t_reg = t[t_reg_idx[0]]
 else:
@@ -90,20 +111,21 @@ peaks, _ = find_peaks(y)
 if len(peaks) > 1:
     T0 = t[peaks[1]] - t[peaks[0]]
     omega = 2 * np.pi / T0
-    # Число колебаний за время регулирования
     peaks_in_reg = peaks[t[peaks] <= t_reg]
     n_osc = len(peaks_in_reg)
 else:
     omega = 0
     n_osc = 0
 
-print("\n=== Прямые оценки качества ===")
-print(f"Время регулирования (5%): {t_reg:.4f} с")
-print(f"Перерегулирование: {overshoot:.2f} %")
-print(f"Время первого максимума: {t_max:.4f} с")
-print(f"Время нарастания (10-90%): {t_rise:.4f} с")
-print(f"Частота колебаний: {omega:.2f} рад/с")
-print(f"Число колебаний за t_reg: {n_osc}")
+print("\n" + "="*50)
+print("=== ПРЯМЫЕ ОЦЕНКИ КАЧЕСТВА ===")
+print("="*50)
+print(f"Время регулирования (5%):     {t_reg:.4f} с")
+print(f"Перерегулирование:            {overshoot:.2f} %")
+print(f"Время первого максимума:      {t_max:.4f} с")
+print(f"Время нарастания (10-90%):    {t_rise:.4f} с")
+print(f"Частота колебаний:            {omega:.2f} рад/с")
+print(f"Число колебаний за t_reg:      {n_osc}")
 
 # График переходной характеристики
 plt.figure(figsize=(12, 6))
@@ -121,19 +143,16 @@ plt.tight_layout()
 plt.show()
 
 # ==========================
-# 3. Корневые оценки качества
+# 4. Корневые оценки качества
 # ==========================
-# Получение полюсов и нулей
 poles = ctrl.poles(closed_loop)
 zeros = ctrl.zeros(closed_loop)
 
-# Степень устойчивости αmin
 stable_poles = [p for p in poles if np.real(p) < 0]
 if stable_poles:
     alpha_min = min(-np.real(p) for p in stable_poles)
     t_peq = 3 / alpha_min if alpha_min > 0 else np.inf
     
-    # Колебательность μ = max(|Im/Re|)
     mu_vals = [abs(np.imag(p)/np.real(p)) for p in stable_poles if np.real(p) < 0 and np.imag(p) != 0]
     mu = max(mu_vals) if mu_vals else 0
 else:
@@ -141,13 +160,16 @@ else:
     t_peq = np.inf
     mu = 0
 
-print("\n=== Корневые оценки качества ===")
-print(f"Степень устойчивости αmin: {alpha_min:.4f}")
-print(f"Время переходного процесса (3/αmin): {t_peq:.4f} с")
-print(f"Колебательность μ: {mu:.4f}")
+print("\n" + "="*50)
+print("=== КОРНЕВЫЕ ОЦЕНКИ КАЧЕСТВА ===")
+print("="*50)
+print(f"Степень устойчивости αmin:     {alpha_min:.4f}")
+print(f"Время переходного процесса:    {t_peq:.4f} с  (3/αmin)")
+print(f"Колебательность μ:             {mu:.4f}")
+
 print(f"\nВсе полюсы системы:")
 for i, p in enumerate(poles):
-    print(f"  p{i+1} = {p:.4f}")
+    print(f"  p{i+1} = {p.real:.4f} + {p.imag:.4f}j")
 
 # Построение расположения полюсов
 plt.figure(figsize=(10, 8))
@@ -166,21 +188,18 @@ plt.tight_layout()
 plt.show()
 
 # ==========================
-# 4. Запасы устойчивости разомкнутой системы
+# 5. Запасы устойчивости разомкнутой системы
 # ==========================
-# Разомкнутая система (без датчика скорости в цепи ОС)
-# Используем ту же open_loop, что и ранее
-
-# Расчёт запасов устойчивости
 try:
     gm, pm, wgm, wpm = ctrl.margin(open_loop)
-    print("\n=== Запасы устойчивости разомкнутой САУ ===")
-    print(f"Запас по фазе: {pm:.2f} град (на частоте {wpm:.4f} рад/с)")
-    print(f"Запас по модулю: {20*np.log10(gm):.2f} дБ (на частоте {wgm:.4f} рад/с)")
+    print("\n" + "="*50)
+    print("=== ЗАПАСЫ УСТОЙЧИВОСТИ РАЗОМКНУТОЙ САУ ===")
+    print("="*50)
+    print(f"Запас по фазе:                 {pm:.2f} град  (на частоте {wpm:.4f} рад/с)")
+    print(f"Запас по модулю:              {20*np.log10(gm):.2f} дБ  (на частоте {wgm:.4f} рад/с)")
 except:
-    print("\n=== Запасы устойчивости разомкнутой САУ ===")
+    print("\n=== Запасы устойчивости ===")
     print("Не удалось автоматически рассчитать запасы устойчивости")
-    gm, pm, wgm, wpm = np.inf, np.inf, 0, 0
 
 # Построение ЛАЧХ и ЛФЧХ
 plt.figure(figsize=(12, 8))
@@ -189,7 +208,7 @@ plt.suptitle("Логарифмические частотные характер
 plt.tight_layout()
 plt.show()
 
-# Дополнительно: годограф Найквиста
+# Годограф Найквиста
 plt.figure(figsize=(8, 8))
 ctrl.nyquist(open_loop)
 plt.title('Годограф Найквиста разомкнутой системы', fontsize=14)
@@ -198,25 +217,11 @@ plt.tight_layout()
 plt.show()
 
 # ==========================
-# 5. Вывод всех ТФ для отчёта
+# 6. Проверка устойчивости
 # ==========================
-print("\n=== Передаточные функции звеньев ===")
-print(f"W1 (регулятор скорости): {W1}")
-print(f"W2 (регулятор тока): {W2}")
-print(f"W3 (ТП): {W3}")
-print(f"W4 (R+Lp): {W4}")
-print(f"W5 (момент/ток): {W5}")
-print(f"W6 (механика): {W6}")
-print(f"W7 (ЭДС/скорость): {W7}")
-print(f"W8 (ДТ): {W8}")
-print(f"W9 (ДС): {W9}")
-print(f"\nПФ разомкнутой системы (без датчика в ОС):")
-print(open_loop)
-print(f"\nПФ замкнутой системы (с датчиком скорости в ОС):")
-print(closed_loop)
-
-# Проверка устойчивости
 if all(np.real(p) < 0 for p in poles):
-    print("\n✓ Система устойчива")
+    print("\n✓ СИСТЕМА УСТОЙЧИВА")
 else:
-    print("\n✗ Система неустойчива!")
+    print("\n✗ СИСТЕМА НЕУСТОЙЧИВА!")
+    unstable = [p for p in poles if np.real(p) >= 0]
+    print(f"Неустойчивые полюсы: {unstable}")
