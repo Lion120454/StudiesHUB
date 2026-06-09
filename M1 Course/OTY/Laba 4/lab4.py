@@ -250,8 +250,7 @@ best_result = {
     'ts': info_opt1['SettlingTime']
 }
 
-# Если перерегулирование уже мало или процесс приемлем, итерация 2 может не дать улучшения
-# Но пробуем несколько значений a
+
 a_values = [0.001, 0.005, 0.01, 0.05, 0.1]
 for a_val in a_values:
     res = minimize(
@@ -388,29 +387,6 @@ ax5.set_ylabel('ΔX')
 ax5.legend()
 ax5.grid(True, alpha=0.3)
 ax5.set_xlim([0, 0.3])
-
-# 4.6. Сводная таблица показателей
-ax6 = plt.subplot(2, 3, 6)
-ax6.axis('off')
-info_final = ct.step_info(W_zam_final)
-table_data = [
-    ['Показатель', 'Исходная', 'Синтез', 'Оптимизация'],
-    ['σ, %', f'{info_orig["Overshoot"]:.2f}', f'{info_synth["Overshoot"]:.2f}', f'{info_final["Overshoot"]:.2f}'],
-    ['tн, с', f'{info_orig["RiseTime"]:.4f}', f'{info_synth["RiseTime"]:.4f}', f'{info_final["RiseTime"]:.4f}'],
-    ['tп, с', f'{info_orig["SettlingTime"]:.4f}', f'{info_synth["SettlingTime"]:.4f}', f'{info_final["SettlingTime"]:.4f}'],
-    ['Kp', '—', f'{Kp_synth:.2f}', f'{Kp_final:.2f}'],
-    ['Tф, с', '—', f'{Tf_synth:.6f}', f'{Tf_final:.8f}'],
-]
-table = ax6.table(cellText=table_data, cellLoc='center', loc='center')
-table.auto_set_font_size(False)
-table.set_fontsize(9)
-table.scale(1.2, 1.5)
-for (row, col), cell in table.get_celld().items():
-    if row == 0:
-        cell.set_facecolor('#4472C4')
-        cell.set_text_props(color='white', fontweight='bold')
-ax6.set_title('Сводка показателей качества', pad=20)
-
 plt.tight_layout(pad=2)
 plt.show()
 
@@ -420,6 +396,7 @@ plt.show()
 print("\n" + "=" * 60)
 print("5. ЗАКЛЮЧЕНИЕ")
 print("=" * 60)
+info_final = ct.step_info(W_zam_final)
 
 print(f"""
 1. Исходная система (без коррекции):
