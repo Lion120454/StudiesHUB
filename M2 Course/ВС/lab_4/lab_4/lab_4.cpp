@@ -4,7 +4,6 @@
 #include <cstdlib>
 #include <ctime>
 
-// Функция для вывода массива (для проверки)
 void printArray(const std::vector<float>& arr, const char* name) {
     std::cout << name << ": ";
     for (float val : arr) {

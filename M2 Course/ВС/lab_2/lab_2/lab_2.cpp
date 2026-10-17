@@ -11,9 +11,13 @@ int main() {
     double D = 2.0;
     double Y;
 
+
+    cout << "A= " << A << endl;
+    cout << "B= " << B << endl;
+    cout << "C= " << C << endl;
+    cout << "D= " << D << endl;
     cout << "Вычисление: Y = A * B + (C^2) / D" << endl;
 
-    // ВАЖНО: Проект должен быть настроен на x86 (32-бит)!
     __asm {
         fld A; Загрузить A в ST(0)
         fmul B; ST(0) = A * B
